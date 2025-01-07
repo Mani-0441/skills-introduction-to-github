@@ -10,7 +10,7 @@ module d_flipflop(d,clk,rst,q);
     end
   end
 endmodule
-
+/*
 module d_flipflop_tb();
   reg d,clk,rst;
   wire q;
@@ -31,4 +31,4 @@ module d_flipflop_tb();
     d = 1'b1;
     #20 $finish;
   end
-endmodule
+endmodule*/
